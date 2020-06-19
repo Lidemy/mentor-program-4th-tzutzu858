@@ -18,5 +18,5 @@
 16. 之後到學習系統上，`作業列表`按`新增作業`並貼上PR(pull request)連結，(網址會有pull)
 17. 助教改完會按 merge
 18. 看到自己被 merge 後，切回master`git checkout master`
-19. 拉下遠端的 master 到 local 端`git pull origin <branch-name>`這樣就可以同步遠端已經 merge 的 master
+19. 拉下遠端的 master 到 local 端`git pull origin master`這樣就可以同步遠端已經 merge 的 master
 20. 刪掉自己的 branch : `git branch -d week1`
