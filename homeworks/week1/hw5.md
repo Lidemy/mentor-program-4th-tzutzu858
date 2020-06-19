@@ -22,8 +22,8 @@
 
 
 ## 請列舉出 3 個「課程沒有提到」的 command line 指令並且說明功用
-`cat <file>`  將檔案內容輸出在終端機上
-`echo "my content" > <file>`   取代原本的檔案內容
-`echo "my content" >> <file>`   添加到原本的檔案內容
-`mv <file-old> <file-new>`  EX:`mv afu.js hihi.js` 將afu.js重新命名hihi.js
-`mv <file> folder/`   EX:`mv afu.js hihi/`   將afu.js移到hihi資料夾裡(資料夾要在同一層，不然會顯示No such file or directory) 
+1. `cat <file>`  將檔案內容輸出在終端機上
+2. `echo "my content" > <file>`   取代原本的檔案內容
+3. `echo "my content" >> <file>`   添加到原本的檔案內容
+4. `mv <file-old> <file-new>`  EX:`mv afu.js hihi.js` 將afu.js重新命名hihi.js
+5. `mv <file> folder/`   EX:`mv afu.js hihi/`   將afu.js移到hihi資料夾裡(資料夾要在同一層，不然會顯示No such file or directory) 
