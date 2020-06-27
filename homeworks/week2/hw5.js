@@ -1,4 +1,7 @@
 function join(arr, concatStr) {
+  if (arr.length === 0) { 
+    return '';
+  }
   arrNew=[]
   for(i=0;i<arr.length;i++){
   	if (i<arr.length-1)
