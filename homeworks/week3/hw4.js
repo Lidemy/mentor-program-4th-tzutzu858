@@ -11,8 +11,8 @@ rl.on('line', line => lines.push(line));
 function solve(lin) {
   const tmp = lin[0];
   const m = Math.floor(tmp.length / 2);
-  if (tmp.length % 2 === 0) { // 狦﹃琌案计
-    if (tmp[m] !== tmp[m - 1]) { // ﹃い丁ㄢじぃ单'False'
+  if (tmp.length % 2 === 0) { // 狦皚琌案计
+    if (tmp[m] !== tmp[m - 1]) { // 皚い丁ㄢじぃ单'False'
       console.log('False');
       return;
     } else {
@@ -23,7 +23,7 @@ function solve(lin) {
         }
       }
     }
-  } else { // 狦﹃琌膀计
+  } else { // 狦皚琌膀计
     for (let i = 1; i <= m; i += 1) {
       if (tmp[m - i] !== tmp[m + i]) {
         console.log('False');
