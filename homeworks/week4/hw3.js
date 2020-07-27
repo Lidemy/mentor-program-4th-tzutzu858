@@ -23,5 +23,5 @@ request(`${API_URL}/name/${countryName}`, (err, res, body) => {
       console.log(`國碼：${countryData[i].callingCodes[0]}`);
     }
   }
-  return console.log('抓取失敗', err);
+  return console.log('抓取失敗');
 });

@@ -44,7 +44,7 @@ switch (action) {
       function readBook() {
         if (res.statusCode < 300 && res.statusCode >= 200) {
           console.log(bookData.id, bookData.name);
-        } else console.log(res.statusCode);
+        } else console.log('輸出失敗,', '訊息代碼 : ', res.statusCode);
       }
 
       return readBook();
@@ -55,7 +55,7 @@ switch (action) {
     request.delete(`${BaseURL}/books/${params}`, (err, res) => {
       if (res.statusCode < 300 && res.statusCode >= 200) {
         return console.log(`你已刪除 id 為 ${params} 的書籍`);
-      } return console.log('刪除失敗', err);
+      } return console.log('刪除失敗');
     });
     break;
 
@@ -75,7 +75,7 @@ switch (action) {
 
       if (res.statusCode < 300 && res.statusCode >= 200) {
         return console.log(`你已新增一本 id 為 ${bookData.id} 的《${bookData.name}》的書籍`);
-      } return console.log('新增失敗', err);
+      } return console.log('新增失敗');
     });
     break;
   case 'update':
@@ -87,10 +87,10 @@ switch (action) {
     }, (err, res) => {
       if (res.statusCode < 300 && res.statusCode >= 200) {
         return console.log(`你已將 id 為 ${params} 的書籍名更新為《${newName}》`);
-      } return console.log('更新失敗', err);
+      } return console.log('更新失敗');
     });
     break;
 
-  default:
+  default: console.log('可用命令 : list, read, delete, create and update');
     break;
 }
