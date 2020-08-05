@@ -1,0 +1,101 @@
+html {
+    font-family: MicrosoftJhengHei;
+}
+
+body {
+    background-color: rgba(0, 0, 0, 0.1);
+    ;
+}
+
+footer {
+    display         : flex;
+    background-color: #000000;
+    color           : #999999;
+    height          : 60px;
+    justify-content : center;
+    align-items     : center;
+    font-size       : 13px;
+}
+
+.wrapper {
+    box-shadow      : 1.8px 2.4px 5px 0px rgba(0, 0, 0, 0.3);
+    padding         : 54px 0 54px 40px;
+    max-width       : 645px;
+    height          : 1085px;
+    background-color: white;
+    margin          : 121px auto;
+    border-top      : solid 8px #fad312;
+
+}
+
+.form_title {
+    margin     : 0;
+    font-weight: bold;
+    font-size  : 36px;
+}
+
+.information {
+    font-size : 14px;
+    text-align: left;
+}
+
+.form_title+.information {
+    margin-top: 30px;
+}
+
+.information+.information {
+    margin-top: 11px;
+}
+
+#required {
+    text-align   : left;
+    font-size    : 16px;
+    color        : #e74149;
+    margin-top   : 22px;
+    margin-bottom: 55px;
+}
+
+.input-block__title {
+    margin-bottom: 25px;
+    font-size    : 20px;
+    font-weight  : bold;
+}
+
+.input-block {
+    margin-bottom: 42px;
+}
+
+.star:after {
+    content    : '*';
+    color      : #e74149;
+    font-size  : 20px;
+    margin-left: 10px;
+
+}
+
+.submit {
+    font-size       : 15px;
+    width           : 92px;
+    height          : 40px;
+    border-radius   : 3px;
+    background-color: #fad312;
+    display         : flex;
+    justify-content : center;
+    align-items     : center;
+    font-weight     : bold;
+}
+
+.submit+p {
+    font-size: 14px;
+}
+
+.input-block input[type=text] {
+    border   : solid 1px #d0d0d0;
+    font-size: 16px;
+    padding  : 8px;
+}
+
+.input-block label {
+    display   : block;
+    margin-top: 12px;
+}
