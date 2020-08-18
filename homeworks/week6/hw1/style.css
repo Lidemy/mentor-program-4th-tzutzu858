@@ -232,13 +232,18 @@ footer {
 
     .comment_block {
         width         : 90%;
-        height        : 180px;
+        height        : 220px;
         padding-bottom: 0;
     }
 
     .comment_block+.comment_block {
         margin-left: 0;
         margin-top : 82px;
+    }
+
+    .comment_content {
+        position      : relative;
+        top           : 26%;
     }
 
 }
