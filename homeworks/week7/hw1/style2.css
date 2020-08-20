@@ -1,0 +1,144 @@
+html {
+    font-family: MicrosoftJhengHei;
+}
+
+body {
+    background-color: rgba(0, 0, 0, 0.1);
+    ;
+}
+
+footer {
+    display         : flex;
+    background-color: #000000;
+    color           : #999999;
+    height          : 60px;
+    justify-content : center;
+    align-items     : center;
+    font-size       : 13px;
+}
+
+.wrapper {
+    box-shadow      : 1.8px 2.4px 5px 0px rgba(0, 0, 0, 0.3);
+    padding         : 54px 0 80px 40px;
+    max-width       : 645px;
+    height          : 1085px;
+    background-color: white;
+    margin          : 121px auto;
+    border-top      : solid 8px #fad312;
+
+}
+
+.form_title {
+    margin     : 0;
+    font-weight: bold;
+    font-size  : 36px;
+}
+
+.information {
+    font-size : 14px;
+    text-align: left;
+}
+
+.form_title+.information {
+    margin-top: 30px;
+}
+
+.information+.information {
+    margin-top: 11px;
+}
+
+#require {
+    text-align   : left;
+    font-size    : 16px;
+    color        : #e74149;
+    margin-top   : 22px;
+    margin-bottom: 55px;
+}
+
+.input-block_title {
+    margin-bottom: 12px;
+    font-size    : 20px;
+    font-weight  : bold;
+}
+
+.input-block {
+    margin-bottom: 58px;
+}
+
+.input-block-radio {
+    margin-bottom: 58px;
+}
+
+.input-block-radio label {
+    display   : block;
+    margin-top: 12px;
+}
+
+.input-ok {
+    visibility: hidden;
+    margin    : 5px;
+    position  : absolute;
+}
+
+.input-err {
+    color     : #e74149;
+    visibility: visible;
+    margin    : 5px;
+    position  : absolute;
+}
+
+.star:after {
+    content    : '*';
+    color      : #e74149;
+    font-size  : 20px;
+    margin-left: 10px;
+
+}
+
+.submit {
+    font-size       : 15px;
+    width           : 92px;
+    height          : 40px;
+    border-radius   : 3px;
+    background-color: #fad312;
+    display         : flex;
+    justify-content : center;
+    align-items     : center;
+    font-weight     : bold;
+    border-style    : none;
+}
+
+.submit:active {
+    transform: scale(1.03);
+}
+
+.submit+p {
+    font-size: 14px;
+}
+
+.customer_profile input[type=text] {
+    border      : solid 1px #d0d0d0;
+    font-size   : 16px;
+    padding     : 8px;
+    margin-right: 15px;
+}
+
+.attention {
+    color: red;
+}
+
+@media(max-width: 450px) {
+    .wrapper {
+        margin: 0 auto;
+    }
+
+    .form_title {
+        font-size: 32px;
+    }
+}
+
+@media(max-width: 320px) {
+    .form_title {
+        font-size: 28px;
+    }
+}

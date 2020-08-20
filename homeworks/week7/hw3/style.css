@@ -1,0 +1,101 @@
+html {
+    font-family: 微軟正黑體;
+}
+
+body {
+    background: rgba(209, 203, 233, 0.3);
+}
+
+.wrapper {
+    max-width    : 650px;
+    background   : #ECF5FF;
+    border-radius: 8px;
+    box-shadow   : -1.4px -1.4px 6px 0px #D8D8EB;
+    height       : 736px;
+    margin       : 30px auto;
+    padding      : 32px;
+}
+
+.title_name {
+    color: #5A5AAD;
+}
+
+.input-todo {
+    width     : 99%;
+    font-size : 20px;
+    border    : none;
+    background: rgba(190, 210, 241, 0.2);
+}
+
+.input-block {
+    border-bottom: solid 3px #39006f83;
+    margin       : 5px 0;
+}
+
+.btn-new {
+    color        : white;
+    padding      : 5px;
+    border-radius: 3px;
+    background   : #84C1FF;
+    border       : none;
+    box-shadow   : 2px 2px 2px 1px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.btn-delete {
+    color        : white;
+    padding      : 5px;
+    border-radius: 3px;
+    background   : hsl(342, 69%, 76%);
+    border       : none;
+    box-shadow   : 2px 2px 2px 1px rgba(0, 0, 0, 0.1);
+}
+
+.todo {
+    position       : relative;
+    margin         : 0 auto;
+    max-width      : 400px;
+    display        : flex;
+    align-items    : center;
+    margin-top     : 12px;
+    padding        : 4px;
+    flex-direction : row;
+    justify-content: space-between;
+    border-bottom  : solid 1px #1d60b8a2;
+}
+
+.todo:hover {
+    background: rgba(133, 216, 255, 0.2);
+}
+
+.todo_title {
+    word-break : break-all;
+    word-wrap  : break-word;
+    white-space: pre-line;
+}
+
+.todo_block {
+    display    : flex;
+    align-items: center;
+}
+
+.todo_check {
+    margin-right: 8px;
+}
+
+.done .todo_title {
+    text-decoration: line-through;
+}
+
+@media(max-width:830px) {
+    .wrapper {
+        margin       : 24px;
+        border-radius: 0;
+    }
+}
+
+@media(max-width:450px) {
+    .wrapper {
+        margin: 0;
+    }
+}
