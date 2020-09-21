@@ -2,25 +2,25 @@
 沒有解題所以只有寫心得
 ### week 6
 其實我第四週就有點落後，所以當群組大家在哀豪 week 6 CSS 牽一髮動全身，我絲毫沒有參與感，等我到了 week 6 一下吸收一大堆標籤屬性，即便自己有作筆記，我覺得腦袋資訊還是雜亂的。
-1. selector
+1. selector<br/>
 CSS 單純選擇 class 比較沒有問題，但如果同時符合兩個標籤，例如 : 需要同時是 div ，class 是 bg-yellow 才顯現背景黃色，或是要選底下標籤，因為沒那麼常用到，還是會回頭看一下筆記避免自己寫錯
 
-2. 權重計算
+2. 權重計算<br/>
 因為都用 class 所以比較沒遇到這部分問題。
 
-3. 放圖片
+3. 放圖片<br/>
 其實到現在還是會困惑我到底要用 <img> 標籤呢?還是用 background: url，後來好像用 background 方式比較多
 
-4. 把自己框起來：border 與 border-radius
+4. 把自己框起來：border 與 border-radius<br/>
 這個我好像是快到 week9 才比較記起來，前面要加單邊邊框時，我腦袋先空白，完全不知道該怎麼做，然後就去偷看範例了
 
-5. margin 與 padding
+5. margin 與 padding<br/>
 這個往外往內加空間比較沒有問題
 
-6. transition 和 transform
+6. transition 和 transform<br/>
 這個是我到現在還很不熟的用法，如果要用我都會回頭去找前面作業，然後直接複製再修改
 
-7.定位跟排版
+7. 定位跟排版<br/>
 這大概是我 week 6 的大撞牆期
 我當時好像把 display 和 position 混在一起，寫作業撞牆到後來覺得不行，就先去玩 [Flexbox Froggy](http://flexboxfroggy.com/) 我才終於把 display 跟 position 分開，但玩完之後 display 之後寫作業都習慣用 flex ，而 block、inline 與 inline-block 是到後面好幾週才弄懂，但還是很少用他們， display 跟 position 沒有混在一起後，其實 position 大概也只有用到絕對定位 absolute ，然後在把他上一層用 relative ，其他元素好像從沒用過，所以很不熟。
 
