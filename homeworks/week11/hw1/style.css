@@ -1,0 +1,301 @@
+body {
+    margin    : 0;
+    background: rgba(0, 0, 0, 0.2);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.username_block {
+    display        : flex;
+    flex-direction : column;
+    margin-top     : 20px;
+    justify-content: center;
+}
+
+.hide {
+    display: none;
+}
+
+.hello {
+    margin: 10px 0;
+}
+
+.warning {
+    color     : rgb(116, 30, 30);
+    background: #fd85c1;
+    padding   : 10px;
+    text-align: center;
+}
+
+.board {
+    background   : white;
+    width        : 100%;
+    max-width    : 700px;
+    margin       : 20px auto;
+    box-shadow   : 1px 1px 3px #e8e8e8;
+    border-radius: 5px;
+    padding      : 25px 20px;
+}
+
+.board_nav {
+    display        : flex;
+    align-items    : center;
+    justify-content: space-between;
+}
+
+.board_title {
+    margin: 0;
+    color : #282070;
+}
+
+.board_nickname {
+    margin     : 10px 0;
+    display    : flex;
+    align-items: center;
+    max-height : 30px;
+}
+
+.board_input_block {
+    margin     : 18px 0;
+    max-height : 30px;
+    display    : flex;
+    align-items: center;
+}
+
+.board_input_block input {
+    border       : 1px solid #c2dffb;
+    padding      : 5px;
+    border-radius: 5px;
+    margin-left  : 5px;
+}
+
+.board_nickname input {
+    border       : 1px solid #c2dffb;
+    padding      : 5px;
+    border-radius: 5px;
+    margin-left  : 5px;
+}
+
+.board_btn {
+    border         : 1px solid #c2dffb;
+    border-radius  : 5px;
+    padding        : 5px;
+    width          : 10%;
+    color          : #334c64;
+    font-size      : 16px;
+    background     : #e0eefc;
+    box-shadow     : 1px 1px 3px #e8e8e8;
+    text-decoration: none;
+    cursor         : default;
+}
+
+.board_btn:hover {
+    background: #7ebdfc;
+}
+
+.board_form {
+    widows     : 100%;
+    padding-top: 35px;
+    position   : relative;
+}
+
+.board_text {
+    width        : 100%;
+    padding      : 5%;
+    border       : 1px solid #c2dffb;
+    border-radius: 5px;
+    margin       : 5px auto;
+    padding      : 10px;
+}
+
+.textarea_bottom {
+    display    : flex;
+    align-items: flex-end;
+}
+
+.board_submit-btn {
+    border       : 1px solid #c2dffb;
+    border-radius: 5px;
+    padding      : 10px;
+    width        : 10%;
+    color        : #46729b;
+    font-size    : 16px;
+    background   : #e0eefc;
+    box-shadow   : 1px 1px 3px #e8e8e8;
+}
+
+.board_submit-btn:hover {
+    background: #7ebdfc;
+}
+
+.change_nickname {
+    width        : 100%;
+    padding      : 5%;
+    border       : 1px solid #c2dffb;
+    border-radius: 5px;
+    margin       : 5px auto;
+    padding      : 10px;
+}
+
+.nickname-btn {
+    padding: 3px;
+}
+
+.board_hr {
+    margin    : 20px auto;
+    height    : 2px;
+    background: rgba(0, 0, 0, 0.3);
+    max-width : 98%;
+}
+
+.message-card {
+    margin        : 10px 0;
+    min-height    : 70px;
+    display       : flex;
+    flex-direction: row;
+    align-items   : center;
+}
+
+/*
+min-width:50px; 是為了不要讓圓形壓縮到
+*/
+.card_avartar {
+    min-width    : 50px;
+    width        : 50px;
+    height       : 50px;
+    border-radius: 50%;
+    background   : #7ebdfc;
+    margin-right : 10px;
+    margin-top   : 3px;
+}
+
+.card_info {
+    display       : flex;
+    flex-direction: row;
+    align-items   : center;
+    height        : 30px;
+}
+
+.card_author {
+    max-width   : 85%;
+    max-height  : 32px;
+    color       : #1985f1;
+    font-weight : bold;
+    font-size   : 20px;
+    overflow    : hidden;
+    margin-right: 10px;
+}
+
+.card_time {
+    color: #a0a0a0;
+}
+
+
+.card_content {
+    margin-top : 8px;
+    max-width  : 100%;
+    word-break : break-all;
+    white-space: pre-line;
+}
+
+.input-ok {
+    visibility : hidden;
+    margin-left: 5px;
+}
+
+.input-err {
+    color      : #e74149;
+    visibility : visible;
+    margin-left: 15px;
+}
+
+.error {
+    color   : red;
+    position: absolute;
+    top     : 0;
+}
+
+.btn_a {
+    margin-left: 10px;
+}
+
+.board__hr {
+    margin    : 20px auto;
+    height    : 2px;
+    background: #e8e8e8;
+    max-width : 95%;
+}
+
+.page-info {
+    text-align: center;
+}
+
+.paginator {
+    display        : flex;
+    justify-content: center;
+    margin-top     : 10px;
+}
+
+.paginator a {
+    font-size      : 14px;
+    text-decoration: none;
+    color          : #5c9edc;
+    border         : 1px solid #5c9edc;
+    padding        : 5px;
+    width          : 80px;
+    display        : flex;
+    justify-content: center;
+}
+
+.admin_board {
+    width         : 100%;
+    max-width     : 900px;
+    margin        : 20px auto;
+    border-radius : 5px;
+    padding       : 25px 20px;
+    display       : flex;
+    flex-direction: column;
+    align-items   : center;
+}
+
+.admin_section {
+    width: 800px;
+}
+
+.order_list_title {
+    background   : rgba(254, 238, 255, 0.9);
+    margin-bottom: 15px;
+    box-shadow   : 6.4px 10.4px 21px -14px #0000002d;
+    padding      : 10px 5px;
+}
+
+.order_list {
+    background: rgba(250, 253, 255, 0.9);
+    box-shadow: 6.4px 10.4px 21px -14px #00000059;
+    padding   : 10px 5px;
+}
+
+.order_list+.order_list {
+    border-top: 1px solid #a0a0a050;
+}
+
+.order_list_col+.order_list_col {
+    border-left: 1px solid #a0a0a050;
+}
+
+.return_btn {
+    display        : inline-block;
+    text-align     : center;
+    border         : 1px solid #c2dffb;
+    border-radius  : 5px;
+    padding        : 5px;
+    width          : 100px;
+    color          : #334c64;
+    font-size      : 16px;
+    background     : #e0eefc;
+    box-shadow     : 1px 1px 3px #e8e8e8;
+    text-decoration: none;
+    margin-top     : 60px;
+}
